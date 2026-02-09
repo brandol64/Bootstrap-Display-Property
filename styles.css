@@ -1,0 +1,24 @@
+.lg-invisible {
+    invisibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .lg-invisible {
+        visibility: visible;
+        color: brown;
+    }
+}
+
+@media (min-width: 992px) {
+    .lg-invisible {
+        visibility: visible;
+        color: green;
+    }
+}
+
+@media (min-width: 1200px) {
+    .lg-invisible {
+        visibility: visible;
+        color: blue;
+    }
+}
